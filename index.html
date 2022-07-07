@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Laser cut</title>
+  </head>
+  <body class="font-weather" id="home">
+     <header class="bg-red-600 fixed flex z-20 items-center top-0 left-0 w-full">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between relative">
+          <div class="px-5 ml-0 lg:ml-10">
+            <h1
+              class="text-lg py-4 capitalize inline-block text-center text-white font-bold text-ghostwhite max-w-sm"
+            >
+              cv semangat mandiri
+            </h1>
+          
+          </div>
+
+          <div class="flex items-center px-5">
+            <button
+              class="block right-5 absolute stack lg:hidden"
+              type="button"
+              name="stack"
+            >
+              <span class="stack-line"></span>
+              <span class="stack-line"></span>
+              <span class="stack-line"></span>
+            </button>
+            <nav
+              id="navbar"
+              class="hidden bg-white absolute py-4 bg-ghostwhite top-11 right-5 w-full max-w-[150px] shadow-md rounded-lg lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-house mr-2"></i>Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#supply"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-boxes-stacked mr-2"></i>Product</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#service"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-question mr-2"></i>Service</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#cuts"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-user-check mr-2"></i>Assembling</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#testi"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-comment mr-2"></i>Testimoni</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="flex mx-7 py-2 text-base text-blue-700 lg:text-white font-semibold lg:text-ghostwhite lg:group-hover:text-red-600"
+                    ><i class="fa-solid fa-phone mr-2"></i>Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header> 
+  
+   
+    <section class="-mt-10 lg:-mt-0">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide relative mt-[4.7rem] w-full lg:mt-0"
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+        >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+          
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active relative float-left w-full saturate-50">
+            <video class="min-w-full h-auto  xl:min-w-0 xl:min-h-0" playsinline autoplay muted loop>
+              <source src="img/videos.mp4" type="video/mp4" />
+            </video>
+            <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.3)">
+              <div class="flex justify-center items-center h-full">
+                <div class="text-white text-center px-14 px-md-0">
+                  <h2 class="text-sm lg:text-3xl font-bold mb-4 capitalize">cv.semangat mandiri menerima jasa laser cutting</h2><br><span class="text-sm lg:text-3xl font-semibold">Email:semangatmandiri7@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full saturate-50">
+            <img
+              src="img/2.jpeg"
+              class="block w-full"
+              alt="Image "
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+          
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full saturate-50">
+            <img
+              src="img/3.jpeg"
+              class="block w-full "
+              alt="image"
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+            
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full saturate-50">
+            <img
+              src="img/6.jpeg"
+              class="block w-full"
+              alt="image"
+            />
+            <div class="carousel-caption hidden md:block absolute text-center">
+           
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon w-8 h-8 bg-red-600 rounded-full inline-block bg-no-repeat"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon w-8 h-8 bg-red-600 rounded-full inline-block bg-no-repeat"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+    
+    <!-- layanan -->
+    <section id="supply" class="about pt-10 bg-indigo-100  py-5 bg-ghostwhite">
+    
+      <h1 class="text-center text-2xl px-4 font-bold mb-8 text-dark uppercase" data-aos="fade-up">perlu kebutuhan laser cutting?</h1>
+      <p class="text-2xl font-normal text-slate-700 text-center px-5" data-aos="fade-up">
+     Berikut layanan yg disediakan
+      
+      </p>
+
+    <section
+      class="w-full mt-6 justify-between flex px-5 flex-wrap lg:justify-center gap-6 md:mt-20"
+    >
+    
+      <div class="md:w-3/12">
+        <h2
+          class="mb-5 px-2 text-dark text-xl capitalize font-bold"
+         
+        >
+          laser cutting metal
+        </h2>
+        <div>
+          <div class="mb-3 rounded py-2 pl-3"> 
+            <span class="flex items-center  gap-3">
+             <i class="fa-solid fa-gear"></i>
+              <p class=" text-slate-600 font-medium">PLAT BESI HITAM</p>
+            </span>
+           
+          </div>
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+           <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLAT GALVANIL</p>
+          </span>
+  
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLAT GALVANIS</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLAT STAINLESS</p>
+          </span>
+         
+        </div>
+       
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLAT KUNINGAN</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLAT TEMBAGA</p>
+          </span>
+         
+        </div>
+        </div>
+      </div>
+
+      <div class="md:w-3/12">
+        <h2
+          class="mb-5 font-bold px-2 text-dark text-xl capitalize"
+        
+        >
+          cutting cnc router
+        </h2>
+        <div>
+          <div class="mb-3 rounded py-2 pl-3"> 
+            <span class="flex items-center  gap-3">
+             <i class="fa-solid fa-gear"></i>
+              <p class=" text-slate-600 font-medium">ACP</p>
+            </span>
+           
+          </div>
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+           <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">MDF</p>
+          </span>
+  
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PVC</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">HMR</p>
+          </span>
+         
+        </div>
+       
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">WPC</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">GRC</p>
+          </span>
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLYWOOD</p>
+          </span>
+        </div>
+        </div>
+      </div>
+      <div class="md:w-3/12">
+        <h2
+          class="mb-5 font-bold px-2 text-dark text-xl capitalize"
+        >
+          Laser cutting co2
+        </h2>
+        <div>
+          <div class="mb-3 rounded py-2 pl-3"> 
+            <span class="flex items-center  gap-3">
+             <i class="fa-solid fa-gear"></i>
+              <p class=" text-slate-600 font-medium">AKRILIK</p>
+            </span>
+           
+          </div>
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+           <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">SPON/ KARET</p>
+          </span>
+  
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">KULIT</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">HPL</p>
+          </span>
+         
+        </div>
+       
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">BIRMAP</p>
+          </span>
+         
+        </div>
+        <div class="mb-3 rounded py-2 pl-3">
+          <span class="flex items-center  gap-3">
+            <i class="fa-solid fa-gear"></i>
+            <p class=" text-slate-600 font-medium">PLASTIK</p>
+          </span>
+        </div>
+        </div>
+      </div>
+      
+    </section>
+    <div class=" px-3 py-5 md:px-9 w-full">
+      <div class="bg-gradient-to-r from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+    </div>
+    <!-- akhir layanan -->
+
+    <!-- gambar -->
+    <section class="pt-12 bg-indigo-100" id="service">
+      <div class="container mx-auto">
+        <div class="w-full px-4">
+          <div class=" mx-auto text-center text-slate-900 mb-16">
+        
+            <h2 class="text-lg font-semibold text-ghostwhite mt-3 px-2">
+              "SAAT INI ANDA BERADA DI SITUS YANG TEPAT UNTUK KEBUTUHAN TERSEBUT".<br>PERCAYAKAN KEBUTUHAN DI ATAS KARENA KAMI 
+            </h2>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center px-4">
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-blue-800 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+            <img src="img/fast.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6">
+                <h3 class="text-2xl text-white font-semibold">
+                  RESPON CEPAT
+                </h3>
+              
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-red-600 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+         <img src="img/idea.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6" >
+                <h3 class="text-2xl text-white font-semibold">KONSULTASI GRATIS</h3>
+              
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-green-600 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+            <img src="img/list.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6" >
+                <h3 class="text-2xl text-white font-semibold">
+                  LAYANAN TERPADU
+                </h3>
+            
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-yellow-500 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+         <img src="img/money.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6" >
+                <h3 class="text-2xl text-white font-semibold">HARGA MASUK AKAL</h3>
+              
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-cyan-400 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+         <img src="img/board.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6" >
+                <h3 class="text-2xl text-white font-semibold">GRATIS DESAIN</h3>
+              
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/3">
+            <div
+              class="bg-purple-700 rounded-xl shadow-lg overflow-hidden mb-10 text-center"
+            >
+         <img src="img/medal.png" alt="" class="h-35 w-40 mx-auto hover:scale-125 transition duration-200 ease-out mt-4">
+              <div class="py-6 px-6" >
+                <h3 class="text-2xl text-white font-semibold">HASIL BERKUALITAS</h3>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class=" px-3 py-5 md:px-9 w-full">
+      <div class="bg-gradient-to-l from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+
+    </div>
+    <!-- akhir gambar -->
+    <section class="pt-12" id="cuts">
+      <div class="container mx-auto">
+        <div class="w-full px-4">
+          <div class=" mx-auto text-center text-slate-900 mb-16">
+        
+            <h2 class="text-3xl font-semibold text-ghostwhite mt-3 sm:text-4xl">
+              CUTTING CNC ROUTER - FIBER LASER
+            </h2>
+          </div>
+        </div>
+      <div class="flex flex-wrap justify-center -mt-7 px-4">
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/laser1.png" alt=""></div>
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/10.jpeg" alt=""></div>
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/laser3.jpg" alt=""></div>
+       
+      </div>
+      <div class=" px-3 py-5 md:px-9 w-full">
+        <div class="bg-gradient-to-r from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+        </div>
+      <div class="w-full px-4 pt-12">
+        <div class=" mx-auto text-center text-slate-900 mb-16">
+      
+          <h2 class="text-3xl font-semibold text-ghostwhite mt-3 sm:text-4xl">
+            CUTTING METAL
+          </h2>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center -mt-7 px-4">
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/5.jpeg" alt=""></div>
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/laser2.jpg" alt=""></div>
+        <div class="md:w-1/2 lg:w-1/2 xl:w-1/3 px-4 mb-8"><img class="rounded-lg shadow-md" src="img/1.jpg" alt=""></div>
+       
+      </div>
+      </div>
+    </section>
+      <div class=" px-3 py-5 md:px-9 w-full">
+      <div class="bg-gradient-to-r from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+      </div>
+    <section class="pt-12" id="testi">
+      <div class="w-full px-4 ">
+        <div class=" mx-auto text-center text-slate-900 capitalize mb-16">
+      
+          <h2 class="text-4xl font-semibold text-ghostwhite mt-3 px-2">
+            testimoni 
+          </h2>
+            <p class="text-2xl px-2">inilah pendapat mereka yg telah memilih kami</p>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide relative px-5 lg:px-0" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        </div>
+        <div class="carousel-inner -mt-7 relative w-full overflow-hidden">
+          <div class="carousel-item active float-left w-full">
+            <img
+              src="img/tez.jpg"
+              class="block mx-auto"
+              alt="Wild Landscape"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="img/tez2.jpg"
+              class="block mx-auto"
+              alt="Camera"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="img/tez3.jpg"
+              class="block mx-auto"
+              alt="Exotic Fruits"
+            />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img
+              src="img/tez4.jpg"
+              class="block mx-auto"
+              alt="Exotic Fruits"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0  xl::left-52"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon mt-10 w-8 h-8 bg-red-600 rounded-full inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute   top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0  xl::right-52"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon mt-10 w-8 h-8  bg-red-600 rounded-full  inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden ">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class=" px-3 py-5 mt-7 md:px-9 w-full">
+      <div class="bg-gradient-to-l from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+    </div>
+    <section id="contact" class="pt-12 pb-20">
+      <h1 class="mb-8 text-3xl lg:text-4xl text-center font-bold">Contact</h1>
+      <p class="text-center text-lg mx-auto"></p>
+      <section class="w-full text-dark text-xl gap-5 mt-5"
+    
+      >
+        <div class="flex w-full px-5 lg:px-0 gap-5 md:w-6/12 justify-center md:mx-auto">
+          <a href="" class="w-48 bg-red-600 grid place-items-center py-4 rounded active:bg-red-800 hover:bg-red-800">
+            <i class="fa fa-envelope text-white">     
+            </i>
+          </a>
+          <a href="" class="w-48 bg-green-600 grid place-items-center py-4 rounded active:bg-green-800 hover:bg-green-800">
+            <i class="fab fa-whatsapp text-white">
+            </i>
+          </a>
+        </div>
+
+        <form class="lg:w-10/12 lg:mx-auto mt-8 md:flex items-start gap-6 lg:gap-9 justify-between px-2 lg:px-0"  action="https://formspree.io/f/mlezybnp"
+        method="POST">
+          <section class="md:w-6/12 ">
+            <div class="mb-5 px-5 lg:px-0" >
+              <label class="text-lg label">Nama Lengkap</label>
+              <div class="w-full flex mt-2 border-2 border-blue-600 rounded-xl overflow-hidden form" >
+                <i class="fa fa-user w-2/12 bg-blue-600 text-white text-center pt-3"></i>
+                <input name="fullname" type="text" class="pl-6 py-2 px-2 bg-ghostwhite w-full outline-none" placeholder="nama" required>
+              </div>
+            </div>
+            <div class="mb-5 px-5 lg:px-0">
+              <label class="text-lg label" >Perusahaan</label>
+              <div class="w-full flex mt-2 border-2 border-blue-600 rounded-xl overflow-hidden form"  >
+                <i class="fa-solid fa-building w-2/12 bg-blue-600 text-white text-center pt-3"></i>
+                <input name="company" type="text" class="pl-6 py-2 px-2 bg-ghostwhite w-full outline-none" placeholder="nama perusahaan" required>
+              </div>
+            </div>
+            <div class="mb-5 px-5 lg:px-0">
+              <label class="text-lg label" >No telp</label>
+              <div class="w-full flex mt-2 border-2 border-blue-600 rounded-xl overflow-hidden form" >
+                <i class="fa-solid fa-phone w-2/12 bg-blue-600 text-white text-center pt-3"></i>
+                <input name="phone" type="number" class="pl-6 py-2 px-2 bg-ghostwhite w-full outline-none" placeholder="no telp" required>
+              </div>
+            </div>
+            <div class="mb-5 px-5 lg:px-0">
+              <label class="text-lg label" >Email</label>
+              <div class="w-full flex mt-2 border-2 border-blue-600 rounded-xl overflow-hidden form" >
+                <i class="fa fa-envelope w-2/12 bg-blue-600 text-white text-center pt-3"></i>
+                <input name="email" type="email" class="pl-6 py-2 px-2 bg-ghostwhite w-full outline-none" placeholder="alamat email" required>
+              </div>
+            </div>
+          </section>
+          <section class="w-full px-5 lg:px-0 md:w-6/12 flex flex-wrap">
+            <label class="text-lg px-5 lg:px-0">Pesan</label>
+            <textarea name="message label" rows="13" class="w-full text-base placeholder:px-2 lg:px-0 text-ghostwhite mt-2 p-3 border-2 border-blue-600 rounded-xl overflow-hidden outline-none form" placeholder="pesan.." required></textarea>
+            <div class="w-full mt-5 flex justify-between">
+              <button class="bg-blue-600  text-white w-36 py-2 rounded-lg text-base" type="submit">
+                <i class="fa-solid fa-paper-plane"></i><span class="ml-2">Send</span>
+              </button>
+              
+            </div>
+          </section>
+        </form>
+      </section>
+  
+    </section>
+    <div class=" px-3 py-5 mt-7 md:px-9 w-full">
+      <div class="bg-gradient-to-r from-[#4177EE] to-[#4177EE]/0 flex-grow h-3"></div>
+      </div>
+    <footer class="text-ghostwhite mt-7">
+      <section class="w-full flex flex-col gap-10 md:flex-row md:justify-between lg:justify-center">
+        <section class="md:w-6/12 px-4">
+          <strong class="text-3xl text-blue-600">Sungkono</strong>
+          <p class="text-md pt-1  capitalize">"jika anda tertarik dengan apa yang kami tawarkan anda bisa menghubungi kami"</p>
+        </section>
+        <section class="px-4">
+          <strong class="text-xl capitalize">divisi cv. semangat mandiri</strong>
+          <p class="mb-4 pt-1 capitalize">Owner cv. semangat mandiri</p>
+          <ul>
+            <li>
+              <i class="far fa-envelope text-xl text-red-600 mt-1 mr-2"></i>semangatmandiri7@gmail.com
+            </li>
+            <li>
+              <i class="fab fa-whatsapp text-xl mt-1 text-green-500 mr-2"></i>+621399137775 </li>
+            <a href="https://www.youtube.com/channel/UCH9JDSPy_emHBljn9-KVqJw">
+              <li>
+              <i class="fab fa-youtube text-xl mt-1 text-red-600 mr-2"></i>Youtube
+            </li>
+          </a>
+          </ul>
+          </section>
+          </section>
+          <section class="w-full text-center text-xl text-gray-900 mt-16 capitalize">
+            copyright semangat mandiri <i class="fa fa-copyright text-lg mr-1"></i> 2018
+            </section>
+        </footer>
+        
+    <script>
+      const stack = document.querySelector(".stack");
+      const navMenu = document.querySelector("#navbar");
+
+      stack.addEventListener("click", function () {
+        navMenu.classList.toggle("hidden");
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
